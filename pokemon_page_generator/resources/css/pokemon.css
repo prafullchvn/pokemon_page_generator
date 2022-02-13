@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+}
+
+
+.sidebar {
+  width: 20%;
+  padding-top: 2em;
+  background-color: rgb(244, 244, 244);
+  position: fixed;
+  color: rgb(110, 110, 110);
+  overflow: scroll;
+}
+
+.categories {
+  list-style: none;
+  height: 100vh;
+}
+
+.category {
+  font-size: 1.4em;
+}
+
+.category > a {
+  display: block;
+  padding: 0.25em 1em;
+  text-decoration: none;
+  color: inherit;
+}
+
+.selected {
+  color: white;
+}
+
+.pokemon-cards {
+  width: 80%;
+  margin-left: auto;
+  display: flex;
+  padding: 2em;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+
+.pokemon-card {
+  width: 300px;
+  background-color: rgb(244, 244, 244);
+  border: 1px solid grey;
+  padding: 0.5em;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5em;
+  border-radius: 5px;
+  color: rgb(110, 110, 110);
+}
+
+.pokemon-image {
+  width: 100%;
+  background-color: rgb(230, 230, 230);
+}
+
+.pokemon-image > img {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+
+.pokemon-details > header {
+  display: flex;
+  align-items: baseline;
+  column-gap: 0.4em;
+}
+
+.type {
+  padding: 0.3em 0.25em;
+  border-radius: 3px;
+  color: white;
+}
+
+.type:nth-of-type(1){
+  margin-left: auto;
+}
+
+.grass {
+  background-color: mediumseagreen;
+}
+
+.poison {
+  background-color: mediumpurple;
+}
+
+.fire {
+  background-color: goldenrod;
+}
+
+.flying {
+  background-color: steelblue;
+}
+
+.water {
+  background-color: dodgerblue;
+}
+
+.bug {
+  background-color: brown;
+}
+
+.normal {
+  background-color: gray;
+}
+
+.ground {
+  background-color: peru;
+}
+
+.fairy {
+  background-color: hotpink;
+}
+
+.fighting {
+  background-color: crimson;
+}
+
+.electric {
+  background-color: hsl(51deg 73% 50%);
+}
+
+.psychic {
+  background-color: orange;
+}
+
+.rock {
+  background-color: dimgray;
+}
+
+.ice {
+  background-color: darkcyan;
+}
+
+.dragon {
+  background-color: mediumaquamarine;
+}
+
+.ghost {
+  background-color: black;
+}
+
+.dark {
+  background-color: slategray;
+}
+
+.steel {
+  background-color: steelblue;
+}
+
+.all {
+  background-color: dimgray;
+}
+
+.stats {
+  margin-top: 0.5em;
+}
+
+.stats-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: rgb(110, 110, 110);
+}
+
+.stats-table th,
+.stats-table td{
+  border-bottom: 1px solid grey;
+}
+
+.stats-table tr:last-child th,
+.stats-table tr:last-child td {
+  border-bottom: none;
+}
+
+.stats-table  th{
+  padding: 0.25em;
+  text-align: left;
+}
+
+.stats-table  td{
+  padding: 0.25em;
+  text-align: right;
+}

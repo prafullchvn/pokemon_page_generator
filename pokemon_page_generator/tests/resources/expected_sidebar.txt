@@ -1,0 +1,3 @@
+<nav class="sidebar"><ul class="categories"><li class="category"><a href="all.html">all</a></li>
+<li class="selected grass category"><a href="grass.html">grass</a></li>
+<li class="category"><a href="fire.html">fire</a></li></ul></nav>

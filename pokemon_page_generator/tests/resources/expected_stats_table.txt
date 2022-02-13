@@ -1,0 +1,1 @@
+<div class="stats"><table class="stats-table"><tr><th>Weight</th><td>69</td></tr><tr><th>Base XP</th><td>64</td></tr><tr><th>HP</th><td>45</td></tr><tr><th>Attack</th><td>49</td></tr><tr><th>Defense</th><td>49</td></tr><tr><th>Speed</th><td>45</td></tr></table></div>
